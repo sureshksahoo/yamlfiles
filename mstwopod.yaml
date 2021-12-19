@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mstwopod
+  labels:
+    app: secondservice
+spec:
+  containers:
+  - name: secondservice
+    image: 971637d5200a
+   
+  
